@@ -35,4 +35,5 @@ document.getElementById('astro-form').addEventListener('submit', function(event)
       result.innerHTML = `<p>Error: Unable to fetch prediction.</p>`;
     });
   });
-  
+  const cors = require('cors');
+  app.use(cors());
