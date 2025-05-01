@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AstroMed - Doctor Prediction</title>
+  <link rel="stylesheet" href="../css/styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>AstroMed 🔮</h1>
+    <p><i>Where Science meets stars</i></p>
+
+    <form id="astro-form">
+      <label for="zodiac">Zodiac Sign</label>
+      <select id="zodiac" name="zodiac" required>
+        <option value="">-- Select Zodiac Sign --</option>
+        <option value="aries">Aries</option>
+        <option value="taurus">Taurus</option>
+        <option value="gemini">Gemini</option>
+        <option value="cancer">Cancer</option>
+        <option value="leo">Leo</option>
+        <option value="virgo">Virgo</option>
+        <option value="libra">Libra</option>
+        <option value="scorpio">Scorpio</option>
+        <option value="sagittarius">Sagittarius</option>
+        <option value="capricorn">Capricorn</option>
+        <option value="aquarius">Aquarius</option>
+        <option value="pisces">Pisces</option>
+      </select>
+
+      <label for="nakshatra">Nakshatra</label>
+      <select id="nakshatra" name="nakshatra" required>
+      <option value="">-- Select Nakshatra --</option>
+      <option value="Ashwini">Ashwini</option>
+      <option value="Bharani">Bharani</option>
+      <option value="Krittika">Krittika</option>
+      <option value="Rohini">Rohini</option>
+      <option value="Mrigashira">Mrigashira</option>
+      <option value="Ardra">Ardra</option>
+      <option value="Punarvasu">Punarvasu</option>
+      <option value="Pushya">Pushya</option>
+      <option value="Ashlesha">Ashlesha</option>
+      <option value="Magha">Magha</option>
+      <option value="Purva Phalguni">Purva Phalguni</option>
+      <option value="Uttara Phalguni">Uttara Phalguni</option>
+      <option value="Hasta">Hasta</option>
+      <option value="Chitra">Chitra</option>
+      <option value="Swati">Swati</option>
+      <option value="Vishakha">Vishakha</option>
+      <option value="Anuradha">Anuradha</option>
+      <option value="Jyeshtha">Jyeshtha</option>
+      <option value="Mula">Mula</option>
+      <option value="Purva Ashadha">Purva Ashadha</option>
+      <option value="Uttara Ashadha">Uttara Ashadha</option>
+      <option value="Shravana">Shravana</option>
+      <option value="Dhanishta">Dhanishta</option>
+      <option value="Shatabhisha">Shatabhisha</option>
+      <option value="Purva Bhadrapada">Purva Bhadrapada</option>
+      <option value="Uttara Bhadrapada">Uttara Bhadrapada</option>
+      <option value="Revati">Revati</option>
+      </select>
+
+
+      <label for="sunsign">Sun Sign</label>
+      <select id="sunsign" name="sunsign" required>
+        <option value="">-- Select Sun Sign --</option>
+        <option value="aries">Aries</option>
+        <option value="taurus">Taurus</option>
+        <option value="gemini">Gemini</option>
+        <option value="cancer">Cancer</option>
+        <option value="leo">Leo</option>
+        <option value="virgo">Virgo</option>
+        <option value="libra">Libra</option>
+        <option value="scorpio">Scorpio</option>
+        <option value="sagittarius">Sagittarius</option>
+        <option value="capricorn">Capricorn</option>
+        <option value="aquarius">Aquarius</option>
+        <option value="pisces">Pisces</option>
+      </select>
+
+      <label for="moonsign">Moon Sign</label>
+      <select id="moonsign" name="moonsign" required>
+        <option value="">-- Select Moon Sign --</option>
+        <option value="aries">Aries</option>
+        <option value="taurus">Taurus</option>
+        <option value="gemini">Gemini</option>
+        <option value="cancer">Cancer</option>
+        <option value="leo">Leo</option>
+        <option value="virgo">Virgo</option>
+        <option value="libra">Libra</option>
+        <option value="scorpio">Scorpio</option>
+        <option value="sagittarius">Sagittarius</option>
+        <option value="capricorn">Capricorn</option>
+        <option value="aquarius">Aquarius</option>
+        <option value="pisces">Pisces</option>
+      </select>
+
+      <label for="marsHouse">Mars House:</label>
+      <select id="marsHouse" name="marsHouse">
+        <option value="">-- Select Mars House --</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+      <label for="merHouse">Mercury House:</label>
+      <select id="merHouse" name="merHouse">
+        <option value="">-- Select Mercury House --</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+      <label for="jupHouse">Jupiter House:</label>
+      <select id="jupHouse" name="jupHouse">
+        <option value="">-- Select Jupiter House --</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+      <label for="satHouse">Saturn House:</label>
+      <select id="satHouse" name="satHouse">
+        <option value="">-- Select Saturn House --</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+      <label for="rahuHouse">Rahu House:</label>
+      <select id="rahuHouse" name="rahuHouse">
+        <option value="">-- Select Rahu House --</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+      <label for="ketuHouse">Ketu House:</label>
+      <select id="ketuHouse" name="ketuHouse">
+        <option value="">-- Select Ketu House --</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+  
+
+
+      <button type="submit">Predict Profession</button>
+    </form>
+
+    <div id="prediction-result"></div>
+  </div>
+  <p>Yeah!!You have potential to become doctor!!</p>
+  <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+/* Set background image for the whole page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem 1rem;
+    
+      
+  }
+ 
+  /* Center container */
+  .container {
+    background-image: url('images/space-3546765_1280.jpg'); /* translucent black for contrast */
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  /* Heading */
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5rem; /* Sea blue text color */
+    text-shadow: 0 0 5px #e6e200, 0 0 10px #e6e200, 0 0 20px #e6e200;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Form styles */
+  form label {
+    display: block;
+    margin-bottom:10px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  /* Button styles */
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #00c2ff;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #00a0d6;
+  }
+  
+  /* Prediction result */
+  #prediction-result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-style: italic;
+  }
+  

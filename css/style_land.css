@@ -1,0 +1,183 @@
+/* Reset and base styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+  
+  body {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(180deg, #000000, #0b0b1c);
+    color: white;
+    line-height: 1.6;
+  }
+/*video */
+  .video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Navbar */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem 0;
+    z-index: 1;
+    color:white;
+    text-align: center;
+    padding:20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px #00e0ff88;
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #fff;
+  }
+  
+  /* Section styling */
+  .section {
+    padding: 120px 20px 80px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Home Section */
+  .home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding-top: 10px;
+  }
+  
+  /* Glowing title */
+  .glow-text {
+    font-size: 3rem;
+    text-shadow:
+      0 0 10px #00c2ff,
+      0 0 20px #00c2ff,
+      0 0 40px #00c2ff,
+      0 0 60px #00c2ff;
+    margin: 2rem 0 1rem;
+  }
+  .hero-section {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 1rem;
+  }
+  
+  .intro-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+    gap: 2rem;
+    border-radius: 20px;
+    margin: 2rem auto;
+    max-width: 1200px;
+    flex-wrap: nowrap; /* keep image and text side by side on larger screens */
+  }
+  
+  .intro-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .intro-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 230, 230, 0.3);
+  }
+  
+  .intro-content {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex: 1;
+    color: white;
+    text-align: left;
+    padding: 1rem;
+  }
+  
+  .intro-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .intro-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+
+  
+  
+  /* AstroMed action button */
+  .astro-button {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #00c2ff;
+    color: black;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 20px #00c2ff;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .astro-button:hover {
+    background-color: #00a0d6;
+    box-shadow: 0 0 30px #00e0ff;
+  }
+  
+  
+  /* Section titles */
+  .section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #00e0ff;
+    text-shadow: 0 0 10
+  }
+  .section.fade-in p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+  }
+  footer{
+    text-align: center;
+  }
